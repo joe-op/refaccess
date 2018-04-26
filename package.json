@@ -1,0 +1,22 @@
+{
+  "name": "reference-access",
+  "version": "1.0.0",
+  "description": "A reader for reference materials.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joe-op/refaccess.git"
+  },
+  "author": "joe-op",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joe-op/refaccess/issues"
+  },
+  "homepage": "https://github.com/joe-op/refaccess#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
