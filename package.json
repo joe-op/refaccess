@@ -4,7 +4,9 @@
   "description": "A reader for reference materials.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,10 @@
   "homepage": "https://github.com/joe-op/refaccess#readme",
   "devDependencies": {
     "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
   }
 }
